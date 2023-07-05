@@ -3,6 +3,6 @@
 
 @interface InitialiseJSRuntime : NSObject
 
-- (void)initialiseJSRuntime;
+- (void)initialiseJSRuntime:(UIViewController*) rootController;
 
 @end

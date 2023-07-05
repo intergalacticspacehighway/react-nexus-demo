@@ -14,6 +14,10 @@
 		C0EF98C62A552588001580C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EF98C52A552588001580C0 /* Assets.xcassets */; };
 		C0EF98C92A552588001580C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EF98C72A552588001580C0 /* LaunchScreen.storyboard */; };
 		C0EF98D22A552CA3001580C0 /* InitialiseJSRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0EF98D12A552CA3001580C0 /* InitialiseJSRuntime.mm */; };
+		C0EF98DD2A55D1AB001580C0 /* DOMElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF98D82A55D1AA001580C0 /* DOMElement.swift */; };
+		C0EF98DE2A55D1AB001580C0 /* DOMDocumentHostObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0EF98DA2A55D1AA001580C0 /* DOMDocumentHostObject.mm */; };
+		C0EF98DF2A55D1AB001580C0 /* DOMElementHostObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0EF98DB2A55D1AA001580C0 /* DOMElementHostObject.mm */; };
+		C0EF98E02A55D1AB001580C0 /* DOMDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF98DC2A55D1AB001580C0 /* DOMDocument.swift */; };
 		C2B48DE22FA19D86CA5038B2 /* Pods_NexusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EFD5E14DD875012271714D /* Pods_NexusDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,12 @@
 		C0EF98D02A552CA3001580C0 /* NexusDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NexusDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0EF98D12A552CA3001580C0 /* InitialiseJSRuntime.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InitialiseJSRuntime.mm; sourceTree = "<group>"; };
 		C0EF98D32A552CC0001580C0 /* InitialiseJSRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialiseJSRuntime.h; sourceTree = "<group>"; };
+		C0EF98D72A55D1AA001580C0 /* DOMDocumentHostObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMDocumentHostObject.h; sourceTree = "<group>"; };
+		C0EF98D82A55D1AA001580C0 /* DOMElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOMElement.swift; sourceTree = "<group>"; };
+		C0EF98D92A55D1AA001580C0 /* DOMElementHostObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMElementHostObject.h; sourceTree = "<group>"; };
+		C0EF98DA2A55D1AA001580C0 /* DOMDocumentHostObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DOMDocumentHostObject.mm; sourceTree = "<group>"; };
+		C0EF98DB2A55D1AA001580C0 /* DOMElementHostObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DOMElementHostObject.mm; sourceTree = "<group>"; };
+		C0EF98DC2A55D1AB001580C0 /* DOMDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOMDocument.swift; sourceTree = "<group>"; };
 		F7EFD5E14DD875012271714D /* Pods_NexusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NexusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +76,12 @@
 		C0EF98B02A552587001580C0 = {
 			isa = PBXGroup;
 			children = (
+				C0EF98DC2A55D1AB001580C0 /* DOMDocument.swift */,
+				C0EF98D72A55D1AA001580C0 /* DOMDocumentHostObject.h */,
+				C0EF98DA2A55D1AA001580C0 /* DOMDocumentHostObject.mm */,
+				C0EF98D82A55D1AA001580C0 /* DOMElement.swift */,
+				C0EF98D92A55D1AA001580C0 /* DOMElementHostObject.h */,
+				C0EF98DB2A55D1AA001580C0 /* DOMElementHostObject.mm */,
 				C0EF98D32A552CC0001580C0 /* InitialiseJSRuntime.h */,
 				C0EF98D12A552CA3001580C0 /* InitialiseJSRuntime.mm */,
 				C0EF98BB2A552587001580C0 /* NexusDemo */,
@@ -216,6 +232,10 @@
 			files = (
 				C0EF98D22A552CA3001580C0 /* InitialiseJSRuntime.mm in Sources */,
 				C0EF98C12A552587001580C0 /* ViewController.swift in Sources */,
+				C0EF98DE2A55D1AB001580C0 /* DOMDocumentHostObject.mm in Sources */,
+				C0EF98E02A55D1AB001580C0 /* DOMDocument.swift in Sources */,
+				C0EF98DD2A55D1AB001580C0 /* DOMElement.swift in Sources */,
+				C0EF98DF2A55D1AB001580C0 /* DOMElementHostObject.mm in Sources */,
 				C0EF98BD2A552587001580C0 /* AppDelegate.swift in Sources */,
 				C0EF98BF2A552587001580C0 /* SceneDelegate.swift in Sources */,
 			);
